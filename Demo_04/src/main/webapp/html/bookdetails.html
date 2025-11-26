@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../common/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bookdetails.css">
+    <title>图书详情</title>
+</head>
+<body>
+<div class="contentDiv">
+    <!--  左侧图书封面图片    -->
+    <div class="bookImg">
+        <img id="frontImg" class="img-thumbnail" alt="">
+    </div>
+    <!--   右侧图书信息    -->
+    <div class="bookInfo">
+        <table>
+            <tbody>
+            <tr>
+                <td colspan="2"><h2 id="bookName"></h2></td>
+            </tr>
+            <tr class="info">
+                <td class="leftTd">作者：</td>
+                <td id="author" class="rightTd"></td>
+            </tr>
+            <tr class="info">
+                <td class="leftTd">出版时间：</td>
+                <td id="publish_date" class="rightTd"></td>
+            </tr>
+            <tr class="info">
+                <td class="leftTd">页数：</td>
+                <td id="pages" class="rightTd"></td>
+            </tr>
+            <tr class="info">
+                <td class="leftTd">单价（元）：</td>
+                <td id="price" class="rightTd"></td>
+            </tr>
+            <tr class="info">
+                <td class="leftTd">内容提要：</td>
+                <td id="content" class="rightTd"></td>
+            </tr>
+            </tbody>
+        </table>
+        <!--  下侧按钮操作   -->
+        <div class="bookButton">
+            <button type="button" class="btn btn-danger">加入购物车</button>
+            <button type="button" class="btn  btn-light">在线购买</button>
+            <button type="button" class="btn btn-info">购买电子书</button>
+        </div>
+    </div>
+
+</div>
+
+<script type="text/javascript" src="../common/jquery.min.js"></script>
+<script type="text/javascript" src="../common/bootstrap.min.js"></script>
+<script type="text/javascript" src="../js/dateformat.js"></script>
+<script type="text/javascript" src="../js/bookdetails.js"></script>
+</body>
+</html>

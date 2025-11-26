@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图书详情</title>
+    <link rel="stylesheet" href="/src/assets/base.css">
+</head>
+<body>
+<section class="page">
+    <div class="top-bar">
+        <div>
+            <h1>图书详情</h1>
+            <p class="page__subtitle">查看单本图书的完整信息</p>
+        </div>
+        <div class="top-bar__actions">
+            <a class="btn btn-light" href="../book-list/bookListPage.html">返回列表</a>
+            <span class="user-pill" id="usernameText">未登录</span>
+            <button class="btn btn-outline" id="logoutBtn">退出</button>
+        </div>
+    </div>
+    <div class="card">
+        <p class="status-text" id="statusText">正在加载...</p>
+        <div class="details-grid" id="detailsPanel" hidden>
+            <div class="details-cover">
+                <img id="coverImg" alt="book cover">
+            </div>
+            <div>
+                <table>
+                    <tbody>
+                        <tr><td>编号</td><td id="bookId"></td></tr>
+                        <tr><td>书名</td><td id="bookName"></td></tr>
+                        <tr><td>作者</td><td id="author"></td></tr>
+                        <tr><td>ISBN</td><td id="isbn"></td></tr>
+                        <tr><td>单价</td><td id="price"></td></tr>
+                        <tr><td>数量</td><td id="count"></td></tr>
+                        <tr><td>简介</td><td id="content"></td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+<script type="module" src="/src/pages/book-detail/book-detail-page.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Context docBase="L:\Environment\apache-maven-3.6.3\mvn_resp">
+  <Resources cacheMaxSize="10240">
+    <PreResources base="L:/桌面/demo/Demo_04/Demo_04/target/classes" className="org.apache.catalina.webresources.DirResourceSet" webAppMount="/WEB-INF/classes"/>
+    <PostResources base="L:/Environment/apache-maven-3.6.3/mvn_resp/mysql/mysql-connector-java/8.0.26/mysql-connector-java-8.0.26.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/mysql-connector-java-8.0.26.jar"/>
+    <PostResources base="L:/Environment/apache-maven-3.6.3/mvn_resp/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/protobuf-java-3.11.4.jar"/>
+    <PostResources base="L:/Environment/apache-maven-3.6.3/mvn_resp/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/jackson-databind-2.13.3.jar"/>
+    <PostResources base="L:/Environment/apache-maven-3.6.3/mvn_resp/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/jackson-annotations-2.13.3.jar"/>
+    <PostResources base="L:/Environment/apache-maven-3.6.3/mvn_resp/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/jackson-core-2.13.3.jar"/>
+  </Resources>
+</Context>

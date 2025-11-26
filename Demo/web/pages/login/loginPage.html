@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图书管理登录</title>
+    <link rel="stylesheet" href="/src/assets/base.css">
+    <style>
+        .remember-dialog {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.35);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 16px;
+            z-index: 1000;
+        }
+
+        .remember-dialog[hidden] {
+            display: none;
+        }
+
+        .remember-dialog__card {
+            width: min(420px, 100%);
+            background: #fff;
+            border-radius: 16px;
+            padding: 28px 24px;
+            box-shadow: 0 20px 60px rgba(5, 25, 45, 0.25);
+        }
+
+        .remember-dialog__card h3 {
+            margin: 0 0 8px;
+            font-size: 20px;
+        }
+
+        .remember-dialog__card p {
+            margin: 0;
+            color: #475467;
+            line-height: 1.6;
+        }
+
+        .remember-dialog__checkbox {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 18px;
+            color: #0f766e;
+            font-weight: 500;
+        }
+
+        .remember-dialog__actions {
+            display: flex;
+            gap: 12px;
+            margin-top: 24px;
+        }
+
+        .remember-dialog__actions button {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+<section class="page" style="max-width:560px;width:100%;">
+    <div class="top-bar">
+        <div>
+            <h1>图书管理后台</h1>
+            <p class="page__subtitle">请使用管理员账号登录后进入系统</p>
+        </div>
+    </div>
+    <div class="card">
+        <form id="loginForm" class="book-form">
+            <label>用户名
+                <input type="text" name="username" placeholder="请输入用户名" autocomplete="username" required>
+            </label>
+            <label>密码
+                <input type="password" name="password" placeholder="请输入密码" autocomplete="current-password" required>
+            </label>
+            <div class="actions">
+                <button type="submit" class="btn btn-primary" style="flex:1;">登录</button>
+            </div>
+            <p class="status-text" id="statusText"></p>
+        </form>
+    </div>
+</section>
+<div class="remember-dialog" id="rememberDialog" hidden>
+    <div class="remember-dialog__card">
+        <h3>开启免登录？</h3>
+        <p>为保护账号安全，需要确认是否允许此设备以后自动免登录。</p>
+        <label class="remember-dialog__checkbox">
+            <input type="checkbox" id="rememberCheckbox">
+            <span>以后不再提示，直接免登录</span>
+        </label>
+        <div class="remember-dialog__actions">
+            <button type="button" class="btn btn-primary" id="rememberConfirmBtn">继续登录</button>
+            <button type="button" class="btn" id="rememberCancelBtn" style="background:#fff;color:#0f766e;border:1px solid #0f766e;">取消</button>
+        </div>
+    </div>
+</div>
+<script type="module" src="/src/pages/login/login-page.js"></script>
+</body>
+</html>
+

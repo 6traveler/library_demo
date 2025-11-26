@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contentDiv {
+    position: absolute;
+    width: 1000px;
+    border: 1px solid #d7d7d7;
+    padding: 20px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    overflow: hidden;
+    top: 50px;
+    left: 0;
+    right: 0;
+    font-family: "微软雅黑" , sans-serif;
+}
+
+.bookImg {
+    float: left;
+    width: 20%;
+    margin-left: 10px;
+}
+.bookImg img {
+    width: 200px;
+    border-radius: 5px;
+    box-shadow:10px 10px 10px rgba(0, 0 , 0, .3);;
+}
+
+.bookInfo {
+    float: right;
+    width: 70%;
+    margin-bottom: 15px;
+}
+.bookInfo table {
+    width: 100%;
+    font-size: 11pt;
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+.bookInfo table tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.bookInfo table tr .leftTd {
+    width: 14%;
+    vertical-align: top;
+}
+
+.bookInfo .bookButton {
+    margin-top: 20px;
+    margin-left: 97px;
+}
+.bookInfo .bookButton button {
+    margin-right: 10px;
+}
+

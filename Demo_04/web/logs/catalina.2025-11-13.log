@@ -1,0 +1,461 @@
+13-Nov-2025 11:13:18.174 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.31
+13-Nov-2025 11:13:18.182 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 27 2018 20:24:25 UTC
+13-Nov-2025 11:13:18.182 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.31.0
+13-Nov-2025 11:13:18.182 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Nov-2025 11:13:18.182 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Nov-2025 11:13:18.182 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Nov-2025 11:13:18.182 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\20288\.jdks\corretto-1.8.0_392\jre
+13-Nov-2025 11:13:18.183 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_392-b08
+13-Nov-2025 11:13:18.183 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+13-Nov-2025 11:13:18.183 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         L:\桌面\demo\Demo_04\Demo_04\web
+13-Nov-2025 11:13:18.183 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         L:\IDEA\apache-tomcat-8.5.31
+13-Nov-2025 11:13:18.183 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=L:\IDEA\apache-tomcat-8.5.31
+13-Nov-2025 11:13:18.183 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=L:\桌面\demo\Demo_04\Demo_04\web
+13-Nov-2025 11:13:18.183 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=L:\桌面\demo\Demo_04\Demo_04\web\temp
+13-Nov-2025 11:13:18.184 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=L:\桌面\demo\Demo_04\Demo_04\web\conf\logging.properties
+13-Nov-2025 11:13:18.186 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Nov-2025 11:13:18.186 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:L:\IDEA\IntelliJ IDEA Community Edition 2023.2.2\lib\idea_rt.jar=52263:L:\IDEA\IntelliJ IDEA Community Edition 2023.2.2\bin
+13-Nov-2025 11:13:18.190 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+13-Nov-2025 11:13:18.190 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Users\20288\.jdks\corretto-1.8.0_392\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;L:\MySQL\bin;L:\JDK\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\node_global\node_modules;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;L:\Environment\apache-maven-3.6.3\bin;L:\Git\cmd;L:\nvm\nvm;L:\nodejs;C:\Users\20288\AppData\Local\Microsoft\WindowsApps;L:\IDEA\IntelliJ IDEA 2023.1\bin;L:\Visual Studio Code2023\Microsoft VS Code\bin;C:\Program Files\nodejs\node_global;L:\nvm\nvm;L:\nodejs;C:\Users\20288\AppData\Roaming\Programs\Zero Install;L:\Environment\apache-maven-3.6.3\bin;;.]
+13-Nov-2025 11:13:18.446 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 11:13:19.183 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2025 11:13:19.211 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 11:13:19.215 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2025 11:13:19.215 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2605 ms
+13-Nov-2025 11:13:19.277 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Nov-2025 11:13:19.278 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.31
+13-Nov-2025 11:13:19.291 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [L:\桌面\demo\Demo_04\Demo_04\web\conf\Catalina\localhost\ROOT.xml]
+13-Nov-2025 11:13:22.571 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Nov-2025 11:13:22.641 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [L:\桌面\demo\Demo_04\Demo_04\web\conf\Catalina\localhost\ROOT.xml] has finished in [3,349] ms
+13-Nov-2025 11:13:22.644 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 11:13:22.650 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 11:13:22.652 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 3437 ms
+13-Nov-2025 19:20:57.587 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.31
+13-Nov-2025 19:20:57.590 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 27 2018 20:24:25 UTC
+13-Nov-2025 19:20:57.590 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.31.0
+13-Nov-2025 19:20:57.590 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Nov-2025 19:20:57.590 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Nov-2025 19:20:57.590 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Nov-2025 19:20:57.591 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\20288\.jdks\corretto-1.8.0_392\jre
+13-Nov-2025 19:20:57.591 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_392-b08
+13-Nov-2025 19:20:57.591 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+13-Nov-2025 19:20:57.591 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         L:\桌面\demo\Demo_04\Demo_04\web
+13-Nov-2025 19:20:57.591 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         L:\IDEA\apache-tomcat-8.5.31
+13-Nov-2025 19:20:57.591 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=L:\IDEA\apache-tomcat-8.5.31
+13-Nov-2025 19:20:57.591 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=L:\桌面\demo\Demo_04\Demo_04\web
+13-Nov-2025 19:20:57.591 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=L:\桌面\demo\Demo_04\Demo_04\web\temp
+13-Nov-2025 19:20:57.591 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=L:\桌面\demo\Demo_04\Demo_04\web\conf\logging.properties
+13-Nov-2025 19:20:57.592 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Nov-2025 19:20:57.592 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:L:\IDEA\IntelliJ IDEA Community Edition 2023.2.2\lib\idea_rt.jar=61455:L:\IDEA\IntelliJ IDEA Community Edition 2023.2.2\bin
+13-Nov-2025 19:20:57.592 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+13-Nov-2025 19:20:57.592 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Users\20288\.jdks\corretto-1.8.0_392\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;L:\MySQL\bin;L:\JDK\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\node_global\node_modules;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;L:\Environment\apache-maven-3.6.3\bin;L:\Git\cmd;L:\nvm\nvm;L:\nodejs;C:\Users\20288\AppData\Local\Microsoft\WindowsApps;L:\IDEA\IntelliJ IDEA 2023.1\bin;L:\Visual Studio Code2023\Microsoft VS Code\bin;C:\Program Files\nodejs\node_global;L:\nvm\nvm;L:\nodejs;C:\Users\20288\AppData\Roaming\Programs\Zero Install;L:\Environment\apache-maven-3.6.3\bin;L:\cursor\cursor\resources\app\bin;.]
+13-Nov-2025 19:20:57.786 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:20:58.351 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2025 19:20:58.359 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:20:58.360 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2025 19:20:58.361 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1601 ms
+13-Nov-2025 19:20:58.426 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Nov-2025 19:20:58.426 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.31
+13-Nov-2025 19:20:58.435 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [L:\桌面\demo\Demo_04\Demo_04\web\conf\Catalina\localhost\ROOT.xml]
+13-Nov-2025 19:21:01.427 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Nov-2025 19:21:01.474 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [L:\桌面\demo\Demo_04\Demo_04\web\conf\Catalina\localhost\ROOT.xml] has finished in [3,038] ms
+13-Nov-2025 19:21:01.476 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:21:01.483 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:21:01.485 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 3124 ms
+13-Nov-2025 19:24:43.886 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:24:44.386 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:24:44.981 信息 [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Nov-2025 19:24:45.021 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:24:45.023 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:24:45.026 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:24:45.028 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:24:50.009 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.31
+13-Nov-2025 19:24:50.014 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 27 2018 20:24:25 UTC
+13-Nov-2025 19:24:50.015 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.31.0
+13-Nov-2025 19:24:50.015 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Nov-2025 19:24:50.015 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Nov-2025 19:24:50.015 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Nov-2025 19:24:50.015 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\20288\.jdks\corretto-1.8.0_392\jre
+13-Nov-2025 19:24:50.015 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_392-b08
+13-Nov-2025 19:24:50.015 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+13-Nov-2025 19:24:50.015 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         L:\桌面\demo\Demo_04\Demo_04\web
+13-Nov-2025 19:24:50.015 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         L:\IDEA\apache-tomcat-8.5.31
+13-Nov-2025 19:24:50.016 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=L:\IDEA\apache-tomcat-8.5.31
+13-Nov-2025 19:24:50.016 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=L:\桌面\demo\Demo_04\Demo_04\web
+13-Nov-2025 19:24:50.016 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=L:\桌面\demo\Demo_04\Demo_04\web\temp
+13-Nov-2025 19:24:50.016 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=L:\桌面\demo\Demo_04\Demo_04\web\conf\logging.properties
+13-Nov-2025 19:24:50.016 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Nov-2025 19:24:50.016 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:L:\IDEA\IntelliJ IDEA Community Edition 2023.2.2\lib\idea_rt.jar=61619:L:\IDEA\IntelliJ IDEA Community Edition 2023.2.2\bin
+13-Nov-2025 19:24:50.016 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+13-Nov-2025 19:24:50.017 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Users\20288\.jdks\corretto-1.8.0_392\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;L:\MySQL\bin;L:\JDK\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\node_global\node_modules;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;L:\Environment\apache-maven-3.6.3\bin;L:\Git\cmd;L:\nvm\nvm;L:\nodejs;C:\Users\20288\AppData\Local\Microsoft\WindowsApps;L:\IDEA\IntelliJ IDEA 2023.1\bin;L:\Visual Studio Code2023\Microsoft VS Code\bin;C:\Program Files\nodejs\node_global;L:\nvm\nvm;L:\nodejs;C:\Users\20288\AppData\Roaming\Programs\Zero Install;L:\Environment\apache-maven-3.6.3\bin;L:\cursor\cursor\resources\app\bin;.]
+13-Nov-2025 19:24:50.217 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:24:51.068 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2025 19:24:51.079 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:24:51.081 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2025 19:24:51.081 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1906 ms
+13-Nov-2025 19:24:51.142 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Nov-2025 19:24:51.143 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.31
+13-Nov-2025 19:24:51.158 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [L:\桌面\demo\Demo_04\Demo_04\web\conf\Catalina\localhost\ROOT.xml]
+13-Nov-2025 19:24:54.674 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Nov-2025 19:24:54.730 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [L:\桌面\demo\Demo_04\Demo_04\web\conf\Catalina\localhost\ROOT.xml] has finished in [3,571] ms
+13-Nov-2025 19:24:54.732 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:24:54.739 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:24:54.742 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 3660 ms
+13-Nov-2025 19:25:57.639 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:25:58.127 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:25:58.694 信息 [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Nov-2025 19:25:58.706 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:25:58.708 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:25:58.711 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:25:58.711 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:26:03.186 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.31
+13-Nov-2025 19:26:03.190 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 27 2018 20:24:25 UTC
+13-Nov-2025 19:26:03.190 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.31.0
+13-Nov-2025 19:26:03.190 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Nov-2025 19:26:03.190 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Nov-2025 19:26:03.191 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Nov-2025 19:26:03.191 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\20288\.jdks\corretto-1.8.0_392\jre
+13-Nov-2025 19:26:03.191 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_392-b08
+13-Nov-2025 19:26:03.191 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+13-Nov-2025 19:26:03.191 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         L:\桌面\demo\Demo_04\Demo_04\web
+13-Nov-2025 19:26:03.192 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         L:\IDEA\apache-tomcat-8.5.31
+13-Nov-2025 19:26:03.192 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=L:\IDEA\apache-tomcat-8.5.31
+13-Nov-2025 19:26:03.192 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=L:\桌面\demo\Demo_04\Demo_04\web
+13-Nov-2025 19:26:03.193 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=L:\桌面\demo\Demo_04\Demo_04\web\temp
+13-Nov-2025 19:26:03.193 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=L:\桌面\demo\Demo_04\Demo_04\web\conf\logging.properties
+13-Nov-2025 19:26:03.193 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Nov-2025 19:26:03.193 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:L:\IDEA\IntelliJ IDEA Community Edition 2023.2.2\lib\idea_rt.jar=61655:L:\IDEA\IntelliJ IDEA Community Edition 2023.2.2\bin
+13-Nov-2025 19:26:03.198 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+13-Nov-2025 19:26:03.198 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Users\20288\.jdks\corretto-1.8.0_392\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;L:\MySQL\bin;L:\JDK\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\node_global\node_modules;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;L:\Environment\apache-maven-3.6.3\bin;L:\Git\cmd;L:\nvm\nvm;L:\nodejs;C:\Users\20288\AppData\Local\Microsoft\WindowsApps;L:\IDEA\IntelliJ IDEA 2023.1\bin;L:\Visual Studio Code2023\Microsoft VS Code\bin;C:\Program Files\nodejs\node_global;L:\nvm\nvm;L:\nodejs;C:\Users\20288\AppData\Roaming\Programs\Zero Install;L:\Environment\apache-maven-3.6.3\bin;L:\cursor\cursor\resources\app\bin;.]
+13-Nov-2025 19:26:03.327 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:26:04.022 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2025 19:26:04.030 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:26:04.032 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2025 19:26:04.032 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1507 ms
+13-Nov-2025 19:26:04.083 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Nov-2025 19:26:04.083 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.31
+13-Nov-2025 19:26:04.096 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [L:\桌面\demo\Demo_04\Demo_04\web\conf\Catalina\localhost\ROOT.xml]
+13-Nov-2025 19:26:05.623 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Nov-2025 19:26:05.684 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [L:\桌面\demo\Demo_04\Demo_04\web\conf\Catalina\localhost\ROOT.xml] has finished in [1,587] ms
+13-Nov-2025 19:26:05.686 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:26:05.693 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:26:05.698 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1665 ms
+13-Nov-2025 19:27:30.398 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:27:30.967 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:27:31.427 信息 [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Nov-2025 19:27:31.453 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:27:31.454 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:27:31.455 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:27:31.456 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:27:38.199 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.31
+13-Nov-2025 19:27:38.203 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 27 2018 20:24:25 UTC
+13-Nov-2025 19:27:38.204 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.31.0
+13-Nov-2025 19:27:38.204 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Nov-2025 19:27:38.204 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Nov-2025 19:27:38.204 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Nov-2025 19:27:38.204 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\20288\.jdks\corretto-1.8.0_392\jre
+13-Nov-2025 19:27:38.204 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_392-b08
+13-Nov-2025 19:27:38.204 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+13-Nov-2025 19:27:38.205 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         L:\桌面\demo\Demo_04\Demo_04\web
+13-Nov-2025 19:27:38.205 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         L:\IDEA\apache-tomcat-8.5.31
+13-Nov-2025 19:27:38.205 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=L:\IDEA\apache-tomcat-8.5.31
+13-Nov-2025 19:27:38.205 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=L:\桌面\demo\Demo_04\Demo_04\web
+13-Nov-2025 19:27:38.205 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=L:\桌面\demo\Demo_04\Demo_04\web\temp
+13-Nov-2025 19:27:38.205 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=L:\桌面\demo\Demo_04\Demo_04\web\conf\logging.properties
+13-Nov-2025 19:27:38.206 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Nov-2025 19:27:38.206 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:L:\IDEA\IntelliJ IDEA Community Edition 2023.2.2\lib\idea_rt.jar=61807:L:\IDEA\IntelliJ IDEA Community Edition 2023.2.2\bin
+13-Nov-2025 19:27:38.206 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+13-Nov-2025 19:27:38.206 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Users\20288\.jdks\corretto-1.8.0_392\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;L:\MySQL\bin;L:\JDK\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\node_global\node_modules;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;L:\Environment\apache-maven-3.6.3\bin;L:\Git\cmd;L:\nvm\nvm;L:\nodejs;C:\Users\20288\AppData\Local\Microsoft\WindowsApps;L:\IDEA\IntelliJ IDEA 2023.1\bin;L:\Visual Studio Code2023\Microsoft VS Code\bin;C:\Program Files\nodejs\node_global;L:\nvm\nvm;L:\nodejs;C:\Users\20288\AppData\Roaming\Programs\Zero Install;L:\Environment\apache-maven-3.6.3\bin;L:\cursor\cursor\resources\app\bin;.]
+13-Nov-2025 19:27:38.412 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:27:39.062 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2025 19:27:39.068 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:27:39.070 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2025 19:27:39.070 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1711 ms
+13-Nov-2025 19:27:39.117 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Nov-2025 19:27:39.117 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.31
+13-Nov-2025 19:27:39.190 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [L:\桌面\demo\Demo_04\Demo_04\web\conf\Catalina\localhost\ROOT.xml]
+13-Nov-2025 19:27:42.078 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Nov-2025 19:27:42.146 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [L:\桌面\demo\Demo_04\Demo_04\web\conf\Catalina\localhost\ROOT.xml] has finished in [2,955] ms
+13-Nov-2025 19:27:42.149 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:27:42.158 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:27:42.160 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 3090 ms
+13-Nov-2025 19:28:09.641 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:28:10.231 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:28:10.659 信息 [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Nov-2025 19:28:10.675 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:28:10.678 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:28:10.681 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:28:10.681 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:28:14.861 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.31
+13-Nov-2025 19:28:14.864 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 27 2018 20:24:25 UTC
+13-Nov-2025 19:28:14.864 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.31.0
+13-Nov-2025 19:28:14.864 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Nov-2025 19:28:14.865 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Nov-2025 19:28:14.865 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Nov-2025 19:28:14.865 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\20288\.jdks\corretto-1.8.0_392\jre
+13-Nov-2025 19:28:14.865 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_392-b08
+13-Nov-2025 19:28:14.865 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+13-Nov-2025 19:28:14.865 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         L:\桌面\demo\Demo_04\Demo_04\web
+13-Nov-2025 19:28:14.865 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         L:\IDEA\apache-tomcat-8.5.31
+13-Nov-2025 19:28:14.866 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=L:\IDEA\apache-tomcat-8.5.31
+13-Nov-2025 19:28:14.866 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=L:\桌面\demo\Demo_04\Demo_04\web
+13-Nov-2025 19:28:14.866 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=L:\桌面\demo\Demo_04\Demo_04\web\temp
+13-Nov-2025 19:28:14.866 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=L:\桌面\demo\Demo_04\Demo_04\web\conf\logging.properties
+13-Nov-2025 19:28:14.866 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Nov-2025 19:28:14.866 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:L:\IDEA\IntelliJ IDEA Community Edition 2023.2.2\lib\idea_rt.jar=61831:L:\IDEA\IntelliJ IDEA Community Edition 2023.2.2\bin
+13-Nov-2025 19:28:14.871 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+13-Nov-2025 19:28:14.871 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Users\20288\.jdks\corretto-1.8.0_392\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;L:\MySQL\bin;L:\JDK\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\node_global\node_modules;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;L:\Environment\apache-maven-3.6.3\bin;L:\Git\cmd;L:\nvm\nvm;L:\nodejs;C:\Users\20288\AppData\Local\Microsoft\WindowsApps;L:\IDEA\IntelliJ IDEA 2023.1\bin;L:\Visual Studio Code2023\Microsoft VS Code\bin;C:\Program Files\nodejs\node_global;L:\nvm\nvm;L:\nodejs;C:\Users\20288\AppData\Roaming\Programs\Zero Install;L:\Environment\apache-maven-3.6.3\bin;L:\cursor\cursor\resources\app\bin;.]
+13-Nov-2025 19:28:15.011 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:28:15.681 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2025 19:28:15.688 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:28:15.691 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2025 19:28:15.692 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1395 ms
+13-Nov-2025 19:28:15.746 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Nov-2025 19:28:15.746 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.31
+13-Nov-2025 19:28:15.762 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [L:\桌面\demo\Demo_04\Demo_04\web\conf\Catalina\localhost\web.xml]
+13-Nov-2025 19:28:17.451 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Nov-2025 19:28:17.506 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [L:\桌面\demo\Demo_04\Demo_04\web\conf\Catalina\localhost\web.xml] has finished in [1,744] ms
+13-Nov-2025 19:28:17.509 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:28:17.518 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:28:17.521 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1829 ms
+13-Nov-2025 19:29:09.096 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:29:09.677 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:29:10.227 信息 [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Nov-2025 19:29:10.240 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:29:10.241 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:29:10.242 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:29:10.243 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:29:14.655 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.31
+13-Nov-2025 19:29:14.658 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 27 2018 20:24:25 UTC
+13-Nov-2025 19:29:14.659 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.31.0
+13-Nov-2025 19:29:14.659 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Nov-2025 19:29:14.659 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Nov-2025 19:29:14.659 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Nov-2025 19:29:14.659 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\20288\.jdks\corretto-1.8.0_392\jre
+13-Nov-2025 19:29:14.659 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_392-b08
+13-Nov-2025 19:29:14.659 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+13-Nov-2025 19:29:14.659 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         L:\桌面\demo\Demo_04\Demo_04\web
+13-Nov-2025 19:29:14.660 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         L:\IDEA\apache-tomcat-8.5.31
+13-Nov-2025 19:29:14.660 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=L:\IDEA\apache-tomcat-8.5.31
+13-Nov-2025 19:29:14.660 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=L:\桌面\demo\Demo_04\Demo_04\web
+13-Nov-2025 19:29:14.660 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=L:\桌面\demo\Demo_04\Demo_04\web\temp
+13-Nov-2025 19:29:14.660 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=L:\桌面\demo\Demo_04\Demo_04\web\conf\logging.properties
+13-Nov-2025 19:29:14.660 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Nov-2025 19:29:14.660 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:L:\IDEA\IntelliJ IDEA Community Edition 2023.2.2\lib\idea_rt.jar=61859:L:\IDEA\IntelliJ IDEA Community Edition 2023.2.2\bin
+13-Nov-2025 19:29:14.665 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+13-Nov-2025 19:29:14.665 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Users\20288\.jdks\corretto-1.8.0_392\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;L:\MySQL\bin;L:\JDK\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\node_global\node_modules;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;L:\Environment\apache-maven-3.6.3\bin;L:\Git\cmd;L:\nvm\nvm;L:\nodejs;C:\Users\20288\AppData\Local\Microsoft\WindowsApps;L:\IDEA\IntelliJ IDEA 2023.1\bin;L:\Visual Studio Code2023\Microsoft VS Code\bin;C:\Program Files\nodejs\node_global;L:\nvm\nvm;L:\nodejs;C:\Users\20288\AppData\Roaming\Programs\Zero Install;L:\Environment\apache-maven-3.6.3\bin;L:\cursor\cursor\resources\app\bin;.]
+13-Nov-2025 19:29:14.812 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:29:15.597 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2025 19:29:15.608 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:29:15.611 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2025 19:29:15.611 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1536 ms
+13-Nov-2025 19:29:15.691 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Nov-2025 19:29:15.691 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.31
+13-Nov-2025 19:29:15.708 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [L:\桌面\demo\Demo_04\Demo_04\web\conf\Catalina\localhost\ROOT.xml]
+13-Nov-2025 19:29:17.416 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Nov-2025 19:29:17.496 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [L:\桌面\demo\Demo_04\Demo_04\web\conf\Catalina\localhost\ROOT.xml] has finished in [1,787] ms
+13-Nov-2025 19:29:17.498 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:29:17.510 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:29:17.513 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1900 ms
+13-Nov-2025 19:29:47.719 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:29:48.239 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:29:48.668 信息 [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Nov-2025 19:29:48.684 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:29:48.686 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:29:48.688 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:29:48.689 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:29:53.637 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.31
+13-Nov-2025 19:29:53.645 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 27 2018 20:24:25 UTC
+13-Nov-2025 19:29:53.645 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.31.0
+13-Nov-2025 19:29:53.646 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Nov-2025 19:29:53.646 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Nov-2025 19:29:53.646 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Nov-2025 19:29:53.646 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\20288\.jdks\corretto-1.8.0_392\jre
+13-Nov-2025 19:29:53.646 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_392-b08
+13-Nov-2025 19:29:53.646 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+13-Nov-2025 19:29:53.646 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         L:\桌面\demo\Demo_04\Demo_04\web
+13-Nov-2025 19:29:53.646 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         L:\IDEA\apache-tomcat-8.5.31
+13-Nov-2025 19:29:53.647 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=L:\IDEA\apache-tomcat-8.5.31
+13-Nov-2025 19:29:53.647 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=L:\桌面\demo\Demo_04\Demo_04\web
+13-Nov-2025 19:29:53.647 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=L:\桌面\demo\Demo_04\Demo_04\web\temp
+13-Nov-2025 19:29:53.647 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=L:\桌面\demo\Demo_04\Demo_04\web\conf\logging.properties
+13-Nov-2025 19:29:53.647 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Nov-2025 19:29:53.648 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:L:\IDEA\IntelliJ IDEA Community Edition 2023.2.2\lib\idea_rt.jar=61878:L:\IDEA\IntelliJ IDEA Community Edition 2023.2.2\bin
+13-Nov-2025 19:29:53.652 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+13-Nov-2025 19:29:53.653 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Users\20288\.jdks\corretto-1.8.0_392\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;L:\MySQL\bin;L:\JDK\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\node_global\node_modules;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;L:\Environment\apache-maven-3.6.3\bin;L:\Git\cmd;L:\nvm\nvm;L:\nodejs;C:\Users\20288\AppData\Local\Microsoft\WindowsApps;L:\IDEA\IntelliJ IDEA 2023.1\bin;L:\Visual Studio Code2023\Microsoft VS Code\bin;C:\Program Files\nodejs\node_global;L:\nvm\nvm;L:\nodejs;C:\Users\20288\AppData\Roaming\Programs\Zero Install;L:\Environment\apache-maven-3.6.3\bin;L:\cursor\cursor\resources\app\bin;.]
+13-Nov-2025 19:29:53.802 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:29:54.573 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2025 19:29:54.578 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:29:54.580 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2025 19:29:54.581 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1586 ms
+13-Nov-2025 19:29:54.640 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Nov-2025 19:29:54.640 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.31
+13-Nov-2025 19:29:54.655 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [L:\桌面\demo\Demo_04\Demo_04\web\conf\Catalina\localhost\ROOT.xml]
+13-Nov-2025 19:29:56.479 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Nov-2025 19:29:56.533 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [L:\桌面\demo\Demo_04\Demo_04\web\conf\Catalina\localhost\ROOT.xml] has finished in [1,877] ms
+13-Nov-2025 19:29:56.535 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:29:56.544 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:29:56.547 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1965 ms
+13-Nov-2025 19:34:58.534 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:34:59.046 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:34:59.522 信息 [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Nov-2025 19:34:59.536 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:34:59.537 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:34:59.538 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:34:59.539 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:35:07.731 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.31
+13-Nov-2025 19:35:07.735 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 27 2018 20:24:25 UTC
+13-Nov-2025 19:35:07.735 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.31.0
+13-Nov-2025 19:35:07.735 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Nov-2025 19:35:07.736 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Nov-2025 19:35:07.736 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Nov-2025 19:35:07.736 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\20288\.jdks\corretto-1.8.0_392\jre
+13-Nov-2025 19:35:07.736 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_392-b08
+13-Nov-2025 19:35:07.736 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+13-Nov-2025 19:35:07.736 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         L:\桌面\demo\Demo_04\Demo_04\web
+13-Nov-2025 19:35:07.736 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         L:\IDEA\apache-tomcat-8.5.31
+13-Nov-2025 19:35:07.738 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=L:\IDEA\apache-tomcat-8.5.31
+13-Nov-2025 19:35:07.738 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=L:\桌面\demo\Demo_04\Demo_04\web
+13-Nov-2025 19:35:07.738 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=L:\桌面\demo\Demo_04\Demo_04\web\temp
+13-Nov-2025 19:35:07.738 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=L:\桌面\demo\Demo_04\Demo_04\web\conf\logging.properties
+13-Nov-2025 19:35:07.745 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Nov-2025 19:35:07.745 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:L:\IDEA\IntelliJ IDEA Community Edition 2023.2.2\lib\idea_rt.jar=62064:L:\IDEA\IntelliJ IDEA Community Edition 2023.2.2\bin
+13-Nov-2025 19:35:07.746 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+13-Nov-2025 19:35:07.746 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Users\20288\.jdks\corretto-1.8.0_392\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;L:\MySQL\bin;L:\JDK\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\node_global\node_modules;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;L:\Environment\apache-maven-3.6.3\bin;L:\Git\cmd;L:\nvm\nvm;L:\nodejs;C:\Users\20288\AppData\Local\Microsoft\WindowsApps;L:\IDEA\IntelliJ IDEA 2023.1\bin;L:\Visual Studio Code2023\Microsoft VS Code\bin;C:\Program Files\nodejs\node_global;L:\nvm\nvm;L:\nodejs;C:\Users\20288\AppData\Roaming\Programs\Zero Install;L:\Environment\apache-maven-3.6.3\bin;L:\cursor\cursor\resources\app\bin;.]
+13-Nov-2025 19:35:07.885 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:35:08.620 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2025 19:35:08.628 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:35:08.630 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2025 19:35:08.630 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1549 ms
+13-Nov-2025 19:35:08.683 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Nov-2025 19:35:08.683 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.31
+13-Nov-2025 19:35:08.696 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [L:\桌面\demo\Demo_04\Demo_04\web\conf\Catalina\localhost\ROOT.xml]
+13-Nov-2025 19:35:10.301 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Nov-2025 19:35:10.346 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [L:\桌面\demo\Demo_04\Demo_04\web\conf\Catalina\localhost\ROOT.xml] has finished in [1,649] ms
+13-Nov-2025 19:35:10.347 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:35:10.356 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:35:10.359 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1728 ms
+13-Nov-2025 19:36:38.372 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:36:38.886 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:36:39.442 信息 [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Nov-2025 19:36:39.452 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:36:39.454 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:36:39.455 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:36:39.456 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:36:42.855 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.31
+13-Nov-2025 19:36:42.859 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 27 2018 20:24:25 UTC
+13-Nov-2025 19:36:42.859 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.31.0
+13-Nov-2025 19:36:42.859 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Nov-2025 19:36:42.859 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Nov-2025 19:36:42.860 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Nov-2025 19:36:42.860 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\20288\.jdks\corretto-1.8.0_392\jre
+13-Nov-2025 19:36:42.860 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_392-b08
+13-Nov-2025 19:36:42.860 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+13-Nov-2025 19:36:42.860 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         L:\桌面\demo\Demo_04\Demo_04\web
+13-Nov-2025 19:36:42.860 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         L:\IDEA\apache-tomcat-8.5.31
+13-Nov-2025 19:36:42.861 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=L:\IDEA\apache-tomcat-8.5.31
+13-Nov-2025 19:36:42.861 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=L:\桌面\demo\Demo_04\Demo_04\web
+13-Nov-2025 19:36:42.861 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=L:\桌面\demo\Demo_04\Demo_04\web\temp
+13-Nov-2025 19:36:42.861 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=L:\桌面\demo\Demo_04\Demo_04\web\conf\logging.properties
+13-Nov-2025 19:36:42.861 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Nov-2025 19:36:42.861 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:L:\IDEA\IntelliJ IDEA Community Edition 2023.2.2\lib\idea_rt.jar=62148:L:\IDEA\IntelliJ IDEA Community Edition 2023.2.2\bin
+13-Nov-2025 19:36:42.867 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+13-Nov-2025 19:36:42.867 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Users\20288\.jdks\corretto-1.8.0_392\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;L:\MySQL\bin;L:\JDK\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\node_global\node_modules;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;L:\Environment\apache-maven-3.6.3\bin;L:\Git\cmd;L:\nvm\nvm;L:\nodejs;C:\Users\20288\AppData\Local\Microsoft\WindowsApps;L:\IDEA\IntelliJ IDEA 2023.1\bin;L:\Visual Studio Code2023\Microsoft VS Code\bin;C:\Program Files\nodejs\node_global;L:\nvm\nvm;L:\nodejs;C:\Users\20288\AppData\Roaming\Programs\Zero Install;L:\Environment\apache-maven-3.6.3\bin;L:\cursor\cursor\resources\app\bin;.]
+13-Nov-2025 19:36:43.013 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:36:43.702 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2025 19:36:43.713 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:36:43.717 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2025 19:36:43.718 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1539 ms
+13-Nov-2025 19:36:43.780 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Nov-2025 19:36:43.781 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.31
+13-Nov-2025 19:36:43.801 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [L:\桌面\demo\Demo_04\Demo_04\web\conf\Catalina\localhost\ROOT.xml]
+13-Nov-2025 19:36:45.455 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Nov-2025 19:36:45.521 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [L:\桌面\demo\Demo_04\Demo_04\web\conf\Catalina\localhost\ROOT.xml] has finished in [1,720] ms
+13-Nov-2025 19:36:45.523 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:36:45.529 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:36:45.532 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1813 ms
+13-Nov-2025 19:37:59.180 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:37:59.802 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:38:00.397 信息 [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Nov-2025 19:38:00.409 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:38:00.410 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:38:00.412 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:38:00.413 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:38:05.455 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.31
+13-Nov-2025 19:38:05.458 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 27 2018 20:24:25 UTC
+13-Nov-2025 19:38:05.458 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.31.0
+13-Nov-2025 19:38:05.458 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Nov-2025 19:38:05.458 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Nov-2025 19:38:05.459 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Nov-2025 19:38:05.459 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\20288\.jdks\corretto-1.8.0_392\jre
+13-Nov-2025 19:38:05.459 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_392-b08
+13-Nov-2025 19:38:05.459 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+13-Nov-2025 19:38:05.459 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         L:\桌面\demo\Demo_04\Demo_04\web
+13-Nov-2025 19:38:05.459 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         L:\IDEA\apache-tomcat-8.5.31
+13-Nov-2025 19:38:05.459 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=L:\IDEA\apache-tomcat-8.5.31
+13-Nov-2025 19:38:05.459 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=L:\桌面\demo\Demo_04\Demo_04\web
+13-Nov-2025 19:38:05.460 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=L:\桌面\demo\Demo_04\Demo_04\web\temp
+13-Nov-2025 19:38:05.460 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=L:\桌面\demo\Demo_04\Demo_04\web\conf\logging.properties
+13-Nov-2025 19:38:05.460 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Nov-2025 19:38:05.460 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:L:\IDEA\IntelliJ IDEA Community Edition 2023.2.2\lib\idea_rt.jar=62208:L:\IDEA\IntelliJ IDEA Community Edition 2023.2.2\bin
+13-Nov-2025 19:38:05.460 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+13-Nov-2025 19:38:05.460 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Users\20288\.jdks\corretto-1.8.0_392\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;L:\MySQL\bin;L:\JDK\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\node_global\node_modules;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;L:\Environment\apache-maven-3.6.3\bin;L:\Git\cmd;L:\nvm\nvm;L:\nodejs;C:\Users\20288\AppData\Local\Microsoft\WindowsApps;L:\IDEA\IntelliJ IDEA 2023.1\bin;L:\Visual Studio Code2023\Microsoft VS Code\bin;C:\Program Files\nodejs\node_global;L:\nvm\nvm;L:\nodejs;C:\Users\20288\AppData\Roaming\Programs\Zero Install;L:\Environment\apache-maven-3.6.3\bin;L:\cursor\cursor\resources\app\bin;.]
+13-Nov-2025 19:38:05.612 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:38:06.387 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2025 19:38:06.395 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:38:06.398 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2025 19:38:06.398 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1537 ms
+13-Nov-2025 19:38:06.459 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Nov-2025 19:38:06.460 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.31
+13-Nov-2025 19:38:06.475 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [L:\桌面\demo\Demo_04\Demo_04\web\conf\Catalina\localhost\ROOT.xml]
+13-Nov-2025 19:38:08.216 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Nov-2025 19:38:08.265 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [L:\桌面\demo\Demo_04\Demo_04\web\conf\Catalina\localhost\ROOT.xml] has finished in [1,789] ms
+13-Nov-2025 19:38:08.268 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:38:08.275 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:38:08.277 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1879 ms
+13-Nov-2025 19:44:26.420 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:44:27.042 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:44:27.967 信息 [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Nov-2025 19:44:27.999 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:44:28.020 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:44:28.026 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:44:28.027 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:44:35.219 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.31
+13-Nov-2025 19:44:35.223 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 27 2018 20:24:25 UTC
+13-Nov-2025 19:44:35.223 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.31.0
+13-Nov-2025 19:44:35.223 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Nov-2025 19:44:35.223 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Nov-2025 19:44:35.223 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Nov-2025 19:44:35.224 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\20288\.jdks\corretto-1.8.0_392\jre
+13-Nov-2025 19:44:35.224 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_392-b08
+13-Nov-2025 19:44:35.224 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+13-Nov-2025 19:44:35.224 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         L:\桌面\demo\Demo_04\Demo_04\web
+13-Nov-2025 19:44:35.224 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         L:\IDEA\apache-tomcat-8.5.31
+13-Nov-2025 19:44:35.224 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=L:\IDEA\apache-tomcat-8.5.31
+13-Nov-2025 19:44:35.224 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=L:\桌面\demo\Demo_04\Demo_04\web
+13-Nov-2025 19:44:35.224 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=L:\桌面\demo\Demo_04\Demo_04\web\temp
+13-Nov-2025 19:44:35.225 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=L:\桌面\demo\Demo_04\Demo_04\web\conf\logging.properties
+13-Nov-2025 19:44:35.225 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Nov-2025 19:44:35.225 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:L:\IDEA\IntelliJ IDEA Community Edition 2023.2.2\lib\idea_rt.jar=62372:L:\IDEA\IntelliJ IDEA Community Edition 2023.2.2\bin
+13-Nov-2025 19:44:35.225 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+13-Nov-2025 19:44:35.225 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Users\20288\.jdks\corretto-1.8.0_392\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;L:\MySQL\bin;L:\JDK\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\node_global\node_modules;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;L:\Environment\apache-maven-3.6.3\bin;L:\Git\cmd;L:\nvm\nvm;L:\nodejs;C:\Users\20288\AppData\Local\Microsoft\WindowsApps;L:\IDEA\IntelliJ IDEA 2023.1\bin;L:\Visual Studio Code2023\Microsoft VS Code\bin;C:\Program Files\nodejs\node_global;L:\nvm\nvm;L:\nodejs;C:\Users\20288\AppData\Roaming\Programs\Zero Install;L:\Environment\apache-maven-3.6.3\bin;L:\cursor\cursor\resources\app\bin;.]
+13-Nov-2025 19:44:35.382 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:44:36.213 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2025 19:44:36.226 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:44:36.228 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2025 19:44:36.229 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1856 ms
+13-Nov-2025 19:44:36.318 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Nov-2025 19:44:36.319 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.31
+13-Nov-2025 19:44:36.338 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [L:\桌面\demo\Demo_04\Demo_04\web\conf\Catalina\localhost\ROOT.xml]
+13-Nov-2025 19:44:38.589 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Nov-2025 19:44:38.697 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [L:\桌面\demo\Demo_04\Demo_04\web\conf\Catalina\localhost\ROOT.xml] has finished in [2,357] ms
+13-Nov-2025 19:44:38.703 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:44:38.721 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:44:38.726 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 2497 ms
+13-Nov-2025 19:52:19.450 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:52:20.050 信息 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:52:20.589 信息 [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Nov-2025 19:52:20.615 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:52:20.618 信息 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2025 19:52:20.621 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+13-Nov-2025 19:52:20.621 信息 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

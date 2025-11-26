@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/bookdetails.css">
+    <title>图书详情</title>
+</head>
+<body>
+    <div class="contentDiv">
+        <!--  左侧图书封面图片    -->
+        <div class="bookImg">
+            <img id="frontImg" alt="">
+        </div>
+        <!--   右侧图书信息    -->
+        <div class="bookInfo">
+            <table>
+                <tbody>
+                    <tr>
+                        <td colspan="2"><h2 id="bookName"></h2></td>
+                    </tr>
+                    <tr class="info">
+                        <td class="leftTd">作者：</td>
+                        <td id="author" class="rightTd"></td>
+                    </tr>
+                    <tr class="info">
+                        <td class="leftTd">ISBN：</td>
+                        <td id="ISBN" class="rightTd"></td>
+                    </tr>
+                    <tr class="info">
+                        <td class="leftTd">单价（元）：</td>
+                        <td id="price" class="rightTd"></td>
+                    </tr>
+                    <tr class="info">
+                        <td class="leftTd">数量：</td>
+                        <td id="count" class="rightTd"></td>
+                    </tr>
+                    <tr class="info">
+                        <td class="leftTd">内容提要：</td>
+                        <td id="content" class="rightTd"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+<script type="text/javascript" src="../js/bookdetails.js"></script>
+</body>
+</html>
